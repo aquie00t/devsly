@@ -1,7 +1,11 @@
-export default function Home() {
+import HeroSection from "@/components/home/HeroSection";
+import FeaturesSection from "@/components/home/FeaturesSection";
+
+export default function HomePage() {
   return (
-    <main className="flex min-h-screen items-center justify-center">
-      <h1 className="text-3xl font-bold">Devsly</h1>
+    <main className="min-h-screen">
+      <HeroSection />
+      <FeaturesSection />
     </main>
   );
 }
